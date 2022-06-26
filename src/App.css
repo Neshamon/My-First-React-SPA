@@ -47,6 +47,8 @@ nav {
 }
 
 .main-list {
+  display: grid;
+  justify-content: center;
   color: hsl(200, 80%, 80%);
   font-size: 4rem;
 }
