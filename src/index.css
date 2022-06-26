@@ -12,14 +12,3 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
-nav {
-  display: flex;
-  top: 0;
-  left: 0;
-  overflow: hidden;
-  width: 100%;
-  background-color: hsl(175, 10%, 30%);
-  justify-content: space-between;
-  align-items: flex-start;
-}
