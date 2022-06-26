@@ -47,5 +47,6 @@ nav {
 }
 
 .main-list {
-  
+  color: hsl(200, 80%, 80%);
+  font-size: 4rem;
 }
