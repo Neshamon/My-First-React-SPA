@@ -44,6 +44,13 @@ nav {
 .main-title {
   color: hsl(200, 80%, 80%);
   font-size: 4rem;
+  text-align: left;
+  padding-left: 26rem;
+}
+
+hr {
+  width: 56%;
+  opacity: 0.3;
 }
 
 .main-list {
@@ -51,6 +58,6 @@ nav {
   justify-content: center;
   text-align: left;
   color: hsl(200, 80%, 80%);
-  line-height: 4rem;
+  line-height: 5.5rem;
   font-size: 2.5rem;
 }
