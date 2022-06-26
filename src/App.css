@@ -49,6 +49,8 @@ nav {
 .main-list {
   display: grid;
   justify-content: center;
+  text-align: left;
   color: hsl(200, 80%, 80%);
-  font-size: 4rem;
+  line-height: 4rem;
+  font-size: 2.5rem;
 }
