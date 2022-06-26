@@ -2,6 +2,8 @@ import React from "react";
 
 export default function Navbar() {
   return(
-    <h1>This is my Nav Content</h1>
+    <nav>
+      <h2 className = "">React Facts</h2>
+    </nav>
   )
 }
