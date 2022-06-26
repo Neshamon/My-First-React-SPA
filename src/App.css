@@ -41,11 +41,6 @@ nav {
 }
 
 /*Main Styling*/
-main {
-  display: flex;
-  justify-content: center;
-}
-
 .main-title {
   color: hsl(200, 80%, 80%);
   font-size: 4rem;
