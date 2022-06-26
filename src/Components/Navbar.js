@@ -5,7 +5,7 @@ export default function Navbar() {
   return(
     <nav>
       <img src={logo} className="App-logo" alt="logo" />
-      <h2 className = "">React Facts</h2>
+      <h2 className = "nav-title">React Facts</h2>
     </nav>
   )
 }
