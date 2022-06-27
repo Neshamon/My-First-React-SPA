@@ -32,6 +32,7 @@ nav {
   width: 100%;
   background-color: hsl(220, 20%, 50%);
   justify-content: center;
+  text-align: center;
 }
 
 .nav-title {
@@ -42,10 +43,12 @@ nav {
 
 /*Main Styling*/
 .main-title {
-  color: hsl(200, 80%, 80%);
+  color: hsl(200, 100%, 100%);
   font-size: 4rem;
   text-align: left;
+  overflow: hidden;
   padding-left: 26rem;
+  letter-spacing: -0.05em;
 }
 
 hr {
@@ -57,7 +60,17 @@ hr {
   display: grid;
   justify-content: center;
   text-align: left;
-  color: hsl(200, 80%, 80%);
+  color: hsl(200, 100%, 100%);
   line-height: 5.5rem;
   font-size: 2.5rem;
+}
+
+.main-list > li {
+  overflow-wrap: break-all;
+  inline-size: 61rem;
+}
+
+.main-list > li::marker {
+  font-size: 3rem;
+  color: hsl(200, 80%, 80%);
 }
