@@ -42,6 +42,18 @@ nav {
 }
 
 /*Main Styling*/
+
+main {
+  background-image: url("./logo.svg");
+  background-repeat: no-repeat;
+  background-position: 155% 0%;
+}
+
+hr {
+  width: 56%;
+  opacity: 0.3;
+}
+
 .main-title {
   color: hsl(200, 100%, 100%);
   font-size: 4rem;
@@ -49,11 +61,6 @@ nav {
   overflow: hidden;
   padding-left: 26rem;
   letter-spacing: -0.05em;
-}
-
-hr {
-  width: 56%;
-  opacity: 0.3;
 }
 
 .main-list {
